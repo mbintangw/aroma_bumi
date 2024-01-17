@@ -1,0 +1,28 @@
+main{
+  margin: 0 auto;
+  max-width: 1280px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: center;
+  gap: 100px;
+  min-height: 100vh;
+}
+
+.card {
+  margin-top: 30px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all  .5s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 2px 8px 2px rgba(255, 255, 255, 0.2);
+}
+
+.maps{
+  width: 100%;
+  border-radius: 20px;
+}

@@ -1,0 +1,98 @@
+body{
+  margin: 0 auto;
+  font-family: 'Lexend', sans-serif;
+  overflow-x: hidden;
+}
+
+h1 {
+  color: rgb(15, 139, 141);
+}
+
+h1.tittle-underline {
+  border-bottom: 4px solid chocolate;
+  padding-bottom: 15px;
+  color: rgb(15, 139, 141);
+  width: 280px;
+  font-size: 30px;
+}
+footer {
+  background-color: rgb(31, 47, 51);
+  color: #fff;
+  margin-top: 50px;
+  display: flex;
+  padding: 40px;
+  justify-content: space-around;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer-logo img{
+  width: 350px;
+  margin-top: 30px;
+}
+
+.icon-footer img {
+  width: 35px;
+}
+
+.footer-list{
+  display: flex;
+  align-items: flex-start;
+  margin-right: 300px;
+  font-size: 20px;
+}
+
+li{
+  list-style-type: none;
+}
+
+.product-list{
+  margin-right: 50px;
+}
+
+.product-list p{
+  color: chocolate;
+}
+.product-list a{
+  display: grid;
+  margin-top: 15px;
+  text-decoration: none;
+  color: white;
+}
+
+.navbar-container{
+  display: flex;
+  justify-content: space-between;
+  z-index: 10;
+  align-items: center;
+  padding-left: 20px;
+  background-color: rgb(15,139,141);
+  margin: 0 auto;
+  height: 130px;
+}
+
+.nav-icon{
+  width: 350px;
+  padding-left: 75px;
+}
+
+.nav-list{
+  padding-right: 150px
+}
+.nav-list a{
+  color: white;
+  text-decoration: none;
+  margin-right: 50px;
+  font-size: 25px;
+}
+
+button a{
+  text-decoration: none;
+  color: white;
+}

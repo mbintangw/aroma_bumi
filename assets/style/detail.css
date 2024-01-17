@@ -1,0 +1,40 @@
+main {
+  max-width: 1280px;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+button.arrow-message a{
+  border-style: none;
+  padding-right: 20px;
+  background-color: #911f1f;
+  cursor: pointer;
+  color: white;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+}
+
+button.arrow-message:hover a{
+  transform: scale(1.05);
+  box-shadow: 0 2px 8px 2px rgba(255, 255, 255, 0.2);
+}
+
+.product-detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.product-price p {
+  font-size: 15px;
+}
+
+.product-description {
+  width: 700px;
+}
+
+.Arrow {
+  transform: rotate(180deg);
+}

@@ -1,0 +1,84 @@
+main{
+  max-width: 1280px;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+.product-heading{
+  text-align: center;
+}
+
+.card {
+  width: 250px;
+  height: 250px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  background-image: url("../img/Coffee\ background.png");
+  background-size: cover;
+  overflow: hidden;
+  transition: transform 0.5s ease;
+  
+  .card-title{
+    transform: translateY(0%);
+    transition: transform 0.5s ease;
+  }
+  
+  .card-price{
+    transform: translateY(0%);
+    transition: transform 0.5s ease;
+  }
+
+  .product-item{
+    transform: translateY(0%);
+    transition: transform 0.5s ease;
+  }
+}
+ 
+.card-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: center;
+  color: white;
+}
+ 
+ .card-price {
+  font-size: 18px;
+  text-align: center;
+  color: white;
+}
+
+.product-item{
+  width: 250px;
+  height: 190px;
+}
+
+.card-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+.card:hover{
+  transform: scale(1.05);
+
+  .card-title{
+    transform: translateY(500%);
+    transition: transform 0.6s ease;
+  }
+  
+  .card-price{
+    transform: translateY(700%);
+    transition: transform 0.6s ease;
+  }
+
+  .product-item{
+    transform: translateY(-50%);
+    transition: transform 0.6s ease;
+  }
+}

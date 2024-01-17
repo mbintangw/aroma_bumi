@@ -1,0 +1,240 @@
+body{
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Lexend', sans-serif;
+}
+
+main{
+  max-width: 768px;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+/* -------------------------------------------- */
+h1 {
+  color: rgb(15,139,141);;
+}
+
+h1.tittle-underline{
+  border-bottom: 4px solid chocolate;
+  padding-bottom: 15px;
+  color: rgb(15,139,141);
+  width: 280px;
+  font-size: 30px;
+}
+
+button.message{
+  border-style: none;
+  padding: 15px 70px;
+  background-color: #911f1f;
+  cursor: pointer;
+  color: white;
+  border-radius: 30px;
+}
+
+button.message:hover{
+  transform: scale(1.05);
+  box-shadow: 0 2px 8px 2px rgba(255, 255, 255, 0.2);
+}
+
+/* -------------------------------------------- */
+
+header {
+  background-image: url('../img/CoffeHeader.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 80dvh;
+  width: 100%;
+  border-bottom-left-radius: 30px ;
+  border-bottom-right-radius: 30px ;
+  box-shadow: inset 0 0 0 1000px rgba(31, 47, 51, 0.795);
+}
+
+.navbar-container-home{
+  display: flex;
+  justify-content: space-between;
+  z-index: 10;
+  align-items: center;
+  margin-top: 30px;
+  padding-left: 20px;
+}
+
+.nav-icon{
+  width: 350px;
+  padding-left: 75px;
+}
+
+.nav-list{
+  padding-right: 150px
+}
+.nav-list a{
+  color: white;
+  text-decoration: none;
+  margin-right: 50px;
+  font-size: 25px;
+}
+
+.header-content{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 90px;
+  color: white;
+  line-height: 0px;
+  font-size: 40px
+}
+
+.header-content h1{
+  color: white;
+}
+
+.whoarewe{
+  border-radius: 10px;
+  width: 250px;
+  height: 400px;
+  margin-right: 40px;
+  object-fit: cover;
+}
+
+.our-product{
+  border-radius: 10px;
+  width:550px;
+  height: 240px;
+  margin-right: 100px;
+  object-fit: cover;
+}
+
+.hang-out{
+  border-radius: 10px;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.content{
+  display: flex;
+  align-items: flex-start;
+  margin-top: 50px;
+  transform: translateX(-200%);
+  transition: transform 2s ease;
+}
+
+.content:nth-of-type(even){
+  transform: translateX(200%);
+}
+
+.content.show-animate{
+  transform: translateX(0);
+}
+
+
+.content2{
+  display: flex;
+  align-items: flex-start;
+  margin-top: 50px;
+  flex-direction: row-reverse;
+  transform: translateX(-200%);
+  transition: transform 2s ease;
+}
+.content2:nth-of-type(even){
+  transform: translateX(200%);
+}
+.content2.show-animate{
+  transform: translateX(0);
+}
+
+.content-description{
+  margin-left: 70px;
+  font-size: 17px;
+  padding-right: 40px;
+}
+
+.content-description2{
+  font-size: 17px;
+  padding-right: 50px;
+}
+
+.ig{
+  color: chocolate;
+  border-bottom: 4px solid chocolate
+}
+
+.feed-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.feed-wrapper{
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 84px;
+}
+
+.feed-item{
+  width: 200px;
+  height: 200px;
+}
+
+.contact-form{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+footer {
+  background-color: rgb(31, 47, 51);
+  color: #fff;
+  margin-top: 50px;
+  display: flex;
+  padding: 40px;
+  justify-content: space-around;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer-logo img{
+  width: 350px;
+  margin-top: 30px;
+}
+
+.icon-footer img {
+  width: 35px;
+}
+
+.footer-list{
+  display: flex;
+  align-items: flex-start;
+  margin-right: 300px;
+  font-size: 20px;
+}
+
+li{
+  list-style-type: none;
+}
+
+.product-list{
+  margin-right: 50px;
+}
+
+.product-list p{
+  color: chocolate;
+}
+.product-list a{
+  display: grid;
+  margin-top: 15px;
+  text-decoration: none;
+  color: white;
+}
